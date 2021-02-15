@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+section.contact {
+    margin-top: 2vw;
+  }
+  
+  section.contact .contactcontent {
+    text-align: center;
+  }
+  
+  section.contact .contactcontent .contacthead {
+    font-size: 5.5vw;
+    font-weight: 900;
+    opacity: 0.4;
+    margin-bottom: 2vw;
+  }
+  
+  section.contact .contactcontent .form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  section.contact .contactcontent .form .formhead {
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  
+  section.contact .contactcontent .form input {
+    outline: none;
+    font-size: 1.3vw;
+    padding: 10px 20px;
+    width: 50%;
+    font-weight: 500;
+    margin-bottom: 1.5vw;
+  }
+  
+  section.contact .contactcontent .form .subbtn {
+    font-size: 1.7vw;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 3vw;
+  }
+  
+  section.contact .contactcontent .buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  section.contact .contactcontent .buttons img {
+    cursor: pointer;
+  }
+  
+
+@media (max-width: 576px) {
+ 
+  .toplabel p {
+    font-size: 20px;
+    padding: 0 10px 5px 10px;
+  }
+  .toplabel .top {
+    font-weight: 800;
+  }
+
+  .socialmedia {
+    position: initial;
+    text-align: center;
+  }
+  .socialmedia a {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px 0 5px 0;
+  }
+  .bottomlabel {
+    position: initial;
+    bottom: 50;
+    right: 0;
+    color: white;
+    text-align: center;
+  }
+  section.contact {
+    margin-top: 5vw;
+  }
+  section.contact .contactcontent {
+    text-align: center;
+  }
+  section.contact .contactcontent .contacthead {
+    font-size: 10.5vw;
+    font-weight: 900;
+    opacity: 0.4;
+    margin-bottom: 2vw;
+  }
+  section.contact .contactcontent .form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section.contact .contactcontent .form .formhead {
+    font-size: 4vw;
+    font-weight: 500;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+  }
+  section.contact .contactcontent .form input {
+    outline: none;
+    font-size: 3.5vw;
+    padding: 8px 12px;
+    width: 90%;
+    font-weight: 500;
+    margin-bottom: 3vw;
+  }
+  section.contact .contactcontent .form .subbtn {
+    font-size: 4vw;
+    padding: 6px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 3vw;
+  }
+  section.contact .contactcontent .buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section.contact .contactcontent .buttons .callbtn img, section.contact .contactcontent .buttons .mailbtn img, section.contact .contactcontent .buttons .whatsappbtn img {
+    width: 30vw;
+    height: auto;
+  }
+}
+

@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.c_video {
+  width: 100%;
+  position: relative;
+}
+.toplabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+}
+
+.toplabel p {
+  font-size: 35px;
+  padding: 0 40px 10px 40px;
+}
+.toplabel .top {
+  font-weight: 800;
+}
+
+.controls {
+  position: absolute;
+}
+.socialmedia {
+  position: absolute;
+  top: 30%;
+  right: 0;
+}
+.socialmedia a {
+  display: list-item;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0 0 20px 0;
+}
+
+.joinus{
+  display : none;
+  visibility: hidden;
+}
+/* .fa-facebook-square {
+  color: skyblue;
+}
+
+.fa-instagram {
+  background-image: linear-gradient(to left, red, blue);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.fa-youtube {
+  color: red;
+} */
+.bottomlabel {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  color: white;
+  text-align: center;
+}
+
+.bottomlabel a{
+  text-decoration: none;
+  color: white;
+}
+
+.clickhere{
+  font-size: 3vw;
+}
+
+.bottom {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+}
+.bottom_up {
+  font-weight: 700;
+  font-size: 20px;
+}
+.bottom_down {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+section.contact {
+    margin-top: 2vw;
+    display: none;
+    visibility: hidden;
+  }
+  
+  section.contact .contactcontent {
+    text-align: center;
+  }
+  
+  section.contact .contactcontent .contacthead {
+    font-size: 5.5vw;
+    font-weight: 900;
+    opacity: 0.4;
+    margin: 0vw 0vw 0vw 2vw;
+  }
+  
+  section.contact .contactcontent .form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  section.contact .contactcontent .form .formhead {
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  
+  section.contact .contactcontent .form input {
+    outline: none;
+    font-size: 1.3vw;
+    padding: 10px 20px;
+    width: 50%;
+    font-weight: 500;
+    margin-bottom: 1.5vw;
+  }
+  
+  section.contact .contactcontent .form .subbtn {
+    font-size: 1.7vw;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 3vw;
+  }
+
+@media (max-width: 576px) {
+  body{
+    background:#333;
+  }
+  .toplabel {
+    position: initial;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+  }
+  .toplabel p {
+    font-size: 20px;
+    padding: 0 10px 5px 10px;
+  }
+  .toplabel .top {
+    font-weight: 800;
+  }
+
+  .joinus{
+    display : initial;
+    visibility: visible;
+    text-align: center;
+    
+  }
+  .textjoin{
+    color:white;
+    font-weight: 500;
+    padding: 10px 0 5px 0;
+  }
+  .socialmedia {
+    position: initial;
+    text-align: center;
+  }
+  .socialmedia a {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px 10px 25px 0;
+  }
+  .socialmedia a.i img{
+    width: 10vw;
+    height: 10vw;
+  }
+  .bottomlabel {
+    position: initial;
+    bottom: 50;
+    right: 0;
+    color: white;
+    text-align: center;
+  }
+  .up {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 15px 0 15px 0;
+    display: none;
+  }
+  section.contact {
+    margin-top: 5vw;
+    display: initial;
+    visibility: visible;
+  }
+  section.contact .contactcontent {
+    text-align: center;
+  }
+  section.contact .contactcontent .contacthead {
+    font-size: 10.5vw;
+    font-weight: 900;
+    opacity: 1;
+    margin: 4vw 0 2vw 0;
+    color:azure;
+  }
+  section.contact .contactcontent .form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section.contact .contactcontent .form .formhead {
+    font-size: 4vw;
+    font-weight: 500;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+  }
+  section.contact .contactcontent .form input {
+    outline: none;
+    font-size: 3.5vw;
+    padding: 8px 12px;
+    width: 90%;
+    font-weight: 500;
+    margin: 2vw 0vw 2vw 0vw;
+  }
+  section.contact .contactcontent .form .subbtn {
+    font-size: 4vw;
+    padding: 6px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 2vw 0vw 2vw 0vw;
+  }
+
+}
+

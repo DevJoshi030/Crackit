@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73" height="73" viewBox="0 0 73 73">
+  <g id="Group_5" data-name="Group 5" transform="translate(-1816 -375)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="36.5" cy="36.5" r="36.5" transform="translate(1816 375)" fill="#fff" opacity="0.65"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(1827.755 387)">
+      <path id="Path_3" data-name="Path 3" d="M33.856,0H15.389A15.389,15.389,0,0,0,0,15.389V33.856A15.389,15.389,0,0,0,15.389,49.245H33.856A15.389,15.389,0,0,0,49.245,33.856V15.389A15.389,15.389,0,0,0,33.856,0ZM44.628,33.856A10.784,10.784,0,0,1,33.856,44.628H15.389A10.784,10.784,0,0,1,4.617,33.856V15.389A10.784,10.784,0,0,1,15.389,4.617H33.856A10.784,10.784,0,0,1,44.628,15.389Z" transform="translate(0)" fill="#202020"/>
+      <path id="Path_4" data-name="Path 4" d="M16.311,4A12.311,12.311,0,1,0,28.623,16.311,12.311,12.311,0,0,0,16.311,4Zm0,20.006a7.695,7.695,0,1,1,7.695-7.695A7.7,7.7,0,0,1,16.311,24.006Z" transform="translate(8.311 8.311)" fill="#202020"/>
+      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="1.64" cy="1.64" rx="1.64" ry="1.64" transform="translate(36.217 9.747)" fill="#202020"/>
+    </g>
+  </g>
+</svg>

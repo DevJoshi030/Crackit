@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static './css/register.css' %}">
+</head>
+<body>
+    <section class="contact" id="contact">
+        <div class="contactcontent">
+            <p class="contacthead">REGISTRATION</p>
+            <div class="form">
+                
+                <form action="/" method="POST">
+                    {% csrf_token %}
+                    <input type="text" placeholder="Name" name="name" required><br>
+                    <input type="tel" placeholder="Mobile Number"  pattern="[0-9]{10}" name="phone" required><br>
+                    <input type="email" placeholder="Email" name="email" required><br>
+                    <button type="submit" class="subbtn">SUBMIT</button>
+                </form>
+            </div>
+           
+        </div>
+    </section>
+
+</body>
+</html>

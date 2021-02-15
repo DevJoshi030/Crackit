@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crack It</title>
+    <link rel="stylesheet" href="{% static './css/style.css' %}">
+    <script src="https://kit.fontawesome.com/d4d79b6b28.js" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+
+</head>
+<body>
+   <div class="container">
+       <div class="c_video">
+           <div class="toplabel">
+             <p><span class="top"> CRACK</span><span class="it">it</span></p>
+           </div>
+        <video autoplay class="video" controls poster="./static/images/sd.jpg">
+            <source src="{% static './videos/Avengers.mp4' %}" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+          <div class="joinus">
+            <p class="textjoin">JOIN US</p>
+          </div>
+          <div class="socialmedia">
+            <a class="i" href="https://www.instagram.com/digiital_dave/" target="_blank"><img src="{% static './images/insta.svg' %}" alt=""></a>
+            <a class="i" href="https://t.me/joinchat/HzQTUMtLgw_bdBZA" target="_blank"><img src="{% static './images/3.svg' %}" alt=""></a>
+          </div>
+          <div class="bottomlabel">
+            <div class="up">
+                <p class="clickhere" >click here</p>
+                <i class="fa fa-arrow-down" aria-hidden="true"></i>
+            </div>
+            <a class="clicked" href="/register">
+                <div class="bottom">
+                    <p class="bottom_up">DO PRE REGISTRATION</p>
+                    <p class="bottom_down">AND GET 50% OFF IN YOUR FIRST COURSE</p>
+                </div>
+            </a>
+          </div>
+          
+       </div>
+   </div>
+   <section class="contact" id="contact">
+    <div class="contactcontent">
+        <p class="contacthead">REGISTRATION</p>
+        <div class="form">
+       
+            <form action="/" method="POST">
+                {% csrf_token %}
+                <input type="text" placeholder="Name" name="name" required><br>
+                <input type="tel" placeholder="Mobile Number" pattern="[0-9]{10}" name="phone" required><br>
+                <input type="email" placeholder="Email" name="email" required><br>
+                <button type="submit" class="subbtn">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+    <script src="{% static './js/script.js' %}"></script>
+</body>
+</html>
